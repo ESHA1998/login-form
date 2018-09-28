@@ -1,0 +1,76 @@
+<link rel="stylesheet" href="styles.css">
+{{#if user}}
+        <div class="alert alert-danger">Username has taken already try new</div> 
+{{/if}}
+{{#if mail}}
+        <div class="alert alert-danger">Email has taken already try new</div> 
+{{/if}} 
+{{#if errors}}
+      {{#each errors}}
+        <div class="alert alert-danger">{{msg}}</div>
+      {{/each}}
+{{/if}}
+
+<div class="main-agileinfo slider  ">
+    <div class="items-group">
+        <div class="item agileits-w3layouts">
+            <div class="block text main-agileits">
+                <span class="circleLight"></span>
+                <div class="login-form loginw3-agile">
+                    <div class="agile-row">
+                        <h1 class="mytext1">Register</h1>
+                        <div class="login-agileits-top">
+                            <form action="/users/register" method="post">
+                                <br><br>
+                                <div class="form-group">
+                                    <h5>UserName*</h5>
+                                    <input type="text" class="form-control" placeholder="User Name" name="username">
+                                </div>
+                                <br>
+                                <div class="form-group">
+                                    <h5>College*</h5>
+                                    <input type="text" class="form-control" placeholder="College" name="college">
+                                </div>
+                                <br>
+                                <div class="form-group">
+                                    <h5>Email*</h5>
+                                    <input type="email" class="form-control" placeholder="Email" name="email">
+                                </div>
+                                <br>
+                                <div class="form-group">
+                                    <h5>Password*</h5>
+                                    <input type="password" class="form-control" placeholder="Password" name="password">
+                                </div>
+                                <br>
+                                <div class="form-group">
+                                    <h5>Confirm Password*</h5>
+                                    <input type="password" class="form-control" placeholder="Password" name="password2">
+                                </div>
+                                <br><br>
+                        </div>
+                        <div class="start">
+                            <input type="submit" value="Submit"/>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </form>
+                <center>
+                    <div class="login-agileits-bottom wthree">
+                        <a href="/">
+                            <img src="/img/arrow.png" width="70%">
+                        </a>
+
+                        <h6><a href="/">To Home</a></h6>
+
+                    </div>
+                </center>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+

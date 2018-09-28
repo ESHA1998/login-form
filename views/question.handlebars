@@ -1,0 +1,68 @@
+
+
+<body style="background-color: black;">
+
+<div class="row">
+
+    <div class="col-lg-6 col-md-6 col-xs-12 problem" >
+        <section>
+
+            <div class="heading">
+                Let's begin with {{q.question}} level
+                <hr style="margin-top: 0px;
+                        border:1.5px solid #dafcff;
+                        -webkit-box-shadow:0px 0px 289px 104px rgba(0,131,177.0.77);
+                        -moz-box-shadow:0px 0px 289px 104px rgba(0,131,177.0.77);
+                        box-shadow: 0px 0px 289px 104px rgba(0,131,177.0.77);
+                    ">
+            </div>
+            <div class="question start-login">
+                <p>  {{q.text}}
+                </p>
+                <form method="post" action="/submit">
+                    <div class="form-group">
+
+                        <label style="font-family: Miltonian" for="Answer">Answer</label>
+                        <input  style="font-family: Miltonian-Tattoo" name="Answer" class="form-control" id="Answer" placeholder="Answer">
+                        <small  class="form-text text-muted">Any useful data that how input is accepted</small><br>
+                        <button  type="submit" value="Submit">Submit</button>
+                        <br>
+                        <a href="https://www.facebook.com/igdtuwinnerve"> <button  >Hint</button></a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <div class="col-lg-6 col-md-6 col-xs-12" style="background: linear-gradient(#013247,#000000);">
+        <!-- <div id="circle">
+                 <div id="inner-circle">
+                     </div>
+          </div>-->
+
+
+
+        <center>
+
+
+                <div class="container para">
+                    <a href="/">
+                        <p style="float:left"> To Home</p><img src="img/arrow.png" width="70%" >
+                    </a>
+                </div>
+
+            <div>
+                <img src={{q.image}} height="40%" width="70%">
+                <br><br><br>
+                <a class="twitter-timeline" data-width="70%" data-height="100%"data-dnt="true" data-theme="light" data-link-color="#2B7BB9"
+                   href="https://twitter.com/Innerveigdtuw"></a></div>
+
+
+        </center>
+
+
+    </div>
+
+
+
+</div>

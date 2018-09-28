@@ -1,0 +1,60 @@
+
+ <div class="container-fluid">
+    <div class="row">
+
+            <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 column">
+                <div class="question start">
+<center>
+                    <div class="heading mytext1"><a href="index.html">
+                        <img src="img/arrow.png" width="199px" style="margin-left: 0%" >
+                    </a>
+                          LEADERBOARD
+                        <hr style="margin-top: 0px;
+                                                        border:1.5px solid #dafcff;
+                                                        -webkit-box-shadow:0px 0px 289px 104px rgba(0,131,177.0.77);
+                                                        -moz-box-shadow:0px 0px 289px 104px rgba(0,131,177.0.77);
+                                                        box-shadow: 0px 0px 289px 104px rgba(0,131,177.0.77);
+                                                    ">
+                    </div>
+</center>
+                    <div class="container col-lg-8 col-md-8 col-xs-8 col-sm-8 limiter">
+                        <div class="container-table100">
+                            <div class="wrap-table100">
+
+
+                                <div class="table-responsive-md table100 ver6 m-b-110">
+                                    <table data-vertable="ver6">
+                                        <thead>
+                                        <tr class="row100 head">
+                                            <th class="column100 column1" data-column="column1"></th>
+                                            <th class="column100 column2" data-column="column2">Name</th>
+                                            <th class="column100 column3" data-column="column3">Score</th>
+
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+
+                                        {{#each user from="0" to="9"}}
+	
+                                        <tr class="row100">
+                                            <td class="column100 column1" data-column="column1"></td>
+                                            <td class="column100 column2" data-column="column2">{{this.username}}</td>
+                                            <td class="column100 column3" data-column="column3">{{this.question}}</td>
+
+                                        </tr>
+                                        {{/each}}
+                                        
+
+                           
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</div>
+

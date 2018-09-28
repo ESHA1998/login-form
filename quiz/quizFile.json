@@ -1,0 +1,22 @@
+{
+	"id": 1,
+    "description": "Arcane Quiz",
+    "questions": [
+        {
+            "question":1,
+            "text": "What town is Matt Armstrong from?",
+            "correct_answer": "gurgaon",
+        },
+        {
+            "question":2,
+            "text": "What sport does Matt Armstrong play?",
+            "correct_answer": "cricket",
+        },
+        {
+            "question":3,
+            "text": "What is Matt Armstrong's address?",
+            "correct_answer": "gurgaon",
+        },
+        
+    ]
+}

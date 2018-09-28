@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url( https://fonts.googleapis.com/css?family=Miltonian);
+
+body {font-family: 'Roboto', sans-serif;background: #fff;font-size: 16px;color: #424242;line-height: 28px;
+    background: url(img/_harry-potter-14.jpg);
+    background-size: cover;
+    -webkit-background-size: cover;
+
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;}
+
+section{
+    background-size: cover;
+    height: 100%;
+
+}
+.heading
+{
+    font-family: Miltonian;
+    font-size: 4rem;
+    letter-spacing: 3px;
+    color: #fee;
+    margin-top: 0.5em;
+    padding: 0.3em;
+    text-align: center;
+
+}
+
+hr{
+    margin-top: 0px;
+    border:1.5px solid #00fffd;
+    box-shadow: 0 0 15px #00fffd;
+
+}
+.question{
+    color: #fefe;
+    font-size: 1em;
+    padding: 1em;
+
+}
+p{
+
+    font-family: Miltonian-Tattoo;
+    padding: 1.5em;
+    margin:0.2em;
+
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700i);
+@import url(https://fonts.googleapis.com/css?family=Cabin);
+*{
+    box-sizing: border-box;
+}
+.start p{
+    background: #000000;
+    background: linear-gradient(#013247, #000000);
+    border:6px solid #00a4a2;
+    border-radius: 5px;
+    position: relative;
+    transition: 1s all;
+    font-size: 1em;
+    height:100%;
+
+}
+
+.start p:hover{
+    border: 6px solid #00fffd;
+    box-shadow: 0 0 15px #00fffd;
+    transition: 1s all;
+}
+.start button{
+
+    background: #41c1b8;
+    background: linear-gradient(#ab1f4f, #000000);
+    box-sizing: content-box;
+    border: 1px solid #00fffd;
+
+    border-radius: 5px;
+    box-shadow: 0 2px 0 #000;
+    display: block;
+    font-family: Miltonian;
+    color: #00fff0;
+    width:60%;
+    height: 30%;
+    position:relative;
+
+
+
+}
+.start button:hover,
+.start button:focus{
+    background:#0c6125;
+    background: #fefe;
+    color: #004746;
+    outline: none;
+    transition: 1s all;
+}
+.start button:active{
+    background: #ab1f4f;
+    background: linear-gradient(#41c1b8, #00908e);
+    box-shadow:0 1px 0 #000000,
+    inset 1px 0 1px #222;
+    top:1px;
+
+}
+
+.mytext1{
+
+
+    position: relative;
+    animation: text 3s 1;
+
+}
+
+@keyframes text {
+    0%{
+        color: #ab1f4f;
+        margin-bottom: -20px;
+
+    }
+    30%{
+        letter-spacing: 15px;
+        margin-bottom: -20px;
+
+    }
+    85%{
+        letter-spacing: 6px;
+        margin-bottom: -20px;
+
+    }
+}
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .heading{
+        font-size: 2.4em;
+    }
+
+
+    @keyframes text {
+
+        30%{
+            letter-spacing: 4px;
+            margin-bottom: -20px;
+
+        }
+
+    }
+}
+
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+
+    .heading{
+        font-size: 2em;
+    }
+
+
+
+    @keyframes text {
+
+        30%{
+            letter-spacing: 5px;
+            margin-bottom: -10px;
+
+        }
+
+    }
+}
+
